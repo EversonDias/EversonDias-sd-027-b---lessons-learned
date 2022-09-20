@@ -1,8 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Myeongjo', serif;
+}
+:root{
+    --font-title: font-family: 'Bungee Spice', cursive;
+}
 body{
     background: rgb(253, 251, 251);
 }
 #cabecalho{
     position: fixed;
     top: 0;
+    background-color: green;
+    width: 100%;
+}
+#titulo{
+    color: white;
+    font-family: var(--font-title);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
 }
 
