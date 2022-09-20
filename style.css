@@ -15,7 +15,7 @@ body{
 }
 #titulo{
     color: white;
-    font-family: 'Bungee Spice', cursive;
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
@@ -32,8 +32,27 @@ picture{
     border: solid green 0.2rem;
 }
 .conteiner_article_aside{
-    display: inline-block;
+    margin-top: 2rem;
     width: 40%;
+    height: 300px;
     margin-left: 5%;
+    vertical-align: -webkit-baseline-middle;
+    text-indent: 1rem;
+    line-height: 1.1rem;
+}
+.conteiner_listas{
+    margin-top: 2rem;
+    display: inline-block;
+    width: 35%;
+    margin-left: 10%;
+}
+.conteiner_listas > h1{
+    margin: 1rem;
+}
+.lado-esquerdo{
+    display: inline-block;
+}
+.lado-direito{
+    display: inline-block;
 }
 
