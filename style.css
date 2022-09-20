@@ -1,48 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
     background: rgb(253, 251, 251);
 }
-
 #cabecalho{
-    background:green;
     position: fixed;
     top: 0;
 }
-#titulo{
-    color:white;
-    text-align: center;
-}
-picture{
-    display: block;
-    margin-top: 5vh;
-    text-align: center;
-}
-#minha_foto{
-    border-radius: 50%;
-    border: solid green 0.2rem;
-    padding: 0.1rem;
-    max-width: 30vw;
-}
-#listas{
-    margin: auto;
-    width: 80vw;
-}
-#licoes_aprendidas{
-    margin-left: 30%;
-}
-.conteiner{
-    margin: 2rem 0 0 10%; 
-    width: 35%;
-   display: inline-block;
-}
-.conteiner > h1{
-    margin-bottom: 1rem;
-    text-align: center;
-}
-#licoes_a_aprender{
-    margin-left: 30%;
-}
+
