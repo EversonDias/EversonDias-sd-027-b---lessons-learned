@@ -27,3 +27,18 @@ picture{
     padding: 0.1rem;
     max-width: 30vw;
 }
+#listas{
+    margin: auto;
+    width: 80vw; 
+}
+#licoes_aprendidas{
+    list-style: decimal;
+}
+.conteiner_licoes-aprendidas{
+    width: 40%;
+    margin-left: 10%;
+    
+}
+.conteiner_licoes-aprendidas > h1{
+    text-align: center;
+}
