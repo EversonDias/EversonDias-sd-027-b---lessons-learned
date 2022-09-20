@@ -29,16 +29,20 @@ picture{
 }
 #listas{
     margin: auto;
-    width: 80vw; 
+    width: 80vw;
 }
 #licoes_aprendidas{
-    list-style: decimal;
+    margin-left: 30%;
 }
-.conteiner_licoes-aprendidas{
-    width: 40%;
-    margin-left: 10%;
-    
+.conteiner{
+    margin: 2rem 0 0 10%; 
+    width: 35%;
+   display: inline-block;
 }
-.conteiner_licoes-aprendidas > h1{
+.conteiner > h1{
+    margin-bottom: 1rem;
     text-align: center;
+}
+#licoes_a_aprender{
+    margin-left: 30%;
 }
