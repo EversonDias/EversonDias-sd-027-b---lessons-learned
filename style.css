@@ -9,7 +9,7 @@ body {
 
 #cabecalho{
     background:green;
-    position: relative;
+    position: fixed;
     top: 0;
 }
 #titulo{
