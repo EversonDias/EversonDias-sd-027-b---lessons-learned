@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: 'Nanum Myeongjo', serif;
 }
-:root{
-    --font-title: font-family: 'Bungee Spice', cursive;
-}
 body{
     background: rgb(253, 251, 251);
 }
@@ -18,9 +15,25 @@ body{
 }
 #titulo{
     color: white;
-    font-family: var(--font-title);
+    font-family: 'Bungee Spice', cursive;
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
+}
+picture{
+    display: block;
+    text-align: center;
+}
+#minha_foto{
+    width: 20rem;
+    margin-top: 7rem;
+    border-radius: 50%;
+    padding: 0.1rem;
+    border: solid green 0.2rem;
+}
+.conteiner_article_aside{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
 }
 
