@@ -65,3 +65,26 @@ picture {
 .lado-direito {
   display: inline-block;
 }
+
+#rodape {
+  background-color: green;
+  height: 2rem;
+  text-align: center;
+}
+
+#rodape > a {
+  align-items: center;
+  text-decoration: none;
+  padding: 0.2rem;
+  border-radius: 6px;
+  color: white;
+  vertical-align: sub;
+}
+
+.oculto {
+  display: none;
+}
+
+#rodape > a:hover {
+  background-color: rgb(1, 49, 1);
+}
