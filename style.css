@@ -6,14 +6,19 @@
 }
 
 body {
-  background: rgb(253, 251, 251);
+  background: white;
+}
+
+main {
+  min-height: 97vh;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: green;
+  background-color: purple;
   width: 100%;
+  box-shadow: 10px 4px 20px 0px gray;
 }
 
 #titulo {
@@ -29,47 +34,52 @@ picture {
   text-align: center;
 }
 
+picture h1 {
+  margin: 2rem;
+}
+
 #minha_foto {
   width: 20rem;
   margin-top: 7rem;
   border-radius: 50%;
   padding: 0.1rem;
-  border: solid green 0.2rem;
+  border: solid purple 0.3rem;
+  box-shadow: 10px 4px 20px 0px gray;
 }
 
-.conteiner_article_aside {
-  margin-top: 2rem;
-  width: 40%;
-  height: 300px;
-  margin-left: 5%;
-  vertical-align: -webkit-baseline-middle;
-  text-indent: 1rem;
-  line-height: 1.1rem;
+.container_list {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: purple;
+  padding: 2rem;
+  width: 80%;
+  margin: auto;
+  border-radius: 1rem;
+  box-shadow: 10px 4px 20px 0px gray;
 }
 
 .conteiner_listas {
+  display: flex;
   margin-top: 2rem;
-  display: inline-block;
-  width: 35%;
-  margin-left: 10%;
+  flex-direction: column;
+  align-items: center;
 }
 
 .conteiner_listas > h1 {
   margin: 1rem;
+  color: white;
 }
 
-.lado-esquerdo {
-  display: inline-block;
-}
-
-.lado-direito {
-  display: inline-block;
+.conteiner_listas > li {
+  width: 150px;
+  color: white;
 }
 
 #rodape {
-  background-color: green;
+  background-color: purple;
   height: 2rem;
   text-align: center;
+  box-shadow: 10px 4px 20px 0px gray;
 }
 
 #rodape > a {
