@@ -90,11 +90,3 @@ picture h1 {
   color: white;
   vertical-align: sub;
 }
-
-.oculto {
-  display: none;
-}
-
-#rodape > a:hover {
-  background-color: rgb(1, 49, 1);
-}
