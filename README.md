@@ -20,13 +20,13 @@ Para acessar e executar este projeto, siga os passos abaixo:
 2. Clone o Projeto
 
 ```bash
-git clone https://github.com/EversonDias/Project_Trybe_HTML_and_CSS.git lessonsLearned
+git clone https://github.com/EversonDias/Project_Trybe_HTML_and_CSS_Lessons_Learned.git LessonsLearned
 ```
 
 3. Entre na pasta
 
 ```bash
-cd lessonsLearned
+cd LessonsLearned
 ```
 
 4. Rode o Projeto
