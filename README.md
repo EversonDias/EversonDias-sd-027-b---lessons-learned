@@ -20,10 +20,16 @@ Para acessar e executar este projeto, siga os passos abaixo:
 2. Clone o Projeto
 
 ```bash
-git clone 
+git clone https://github.com/EversonDias/Project_Trybe_HTML_and_CSS.git lessonsLearned
 ```
 
-3. Rode o Projeto
+3. Entre na pasta
+
+```bash
+cd lessonsLearned
+```
+
+4. Rode o Projeto
 
 ```bash
 npm start
