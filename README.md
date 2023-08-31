@@ -20,7 +20,7 @@ Para acessar e executar este projeto, siga os passos abaixo:
 2. Clone o Projeto
 
 ```bash
-git clone https://github.com/EversonDias/Project_Trybe_HTML_and_CSS_Lessons_Learned.git LessonsLearned
+git clone https://github.com/EversonDias/Lessons_Learned_with_HTML_and_CSS.git LessonsLearned
 ```
 
 3. Entre na pasta
